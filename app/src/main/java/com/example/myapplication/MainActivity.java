@@ -6,7 +6,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -43,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
             // Формируем строку с данными пользователя
             String userData = username + "," + password + "\n";
 
+            // Здесь должна быть логика сохранения данных пользователя
         });
-
     }
 }
